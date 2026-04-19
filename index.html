@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuteesa Mercylina — CS Student & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-text">Mercylina</div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-brand">Kuteesa Mercylina.</a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./CV.pdf" class="nav-cta" id="cvBtn">Download CV</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!--IMAGE SHOWCASE -->
+  <section class="showcase">
+    <!-- Replace these with your actual images -->
+    <div class="showcase-img">
+      <img src="/images/code1.jpg" alt="Tech workspace">
+    </div>
+    <div class="showcase-img">
+      <img src="/images/emb.jpg" alt="Coding session">
+    </div>
+    <div class="showcase-img">
+      <img src="/images/net.jpg" alt="Collaboration">
+    </div>
+    <div class="showcase-overlay">
+      <div class="showcase-intro">Computer Science · Makerere University</div>
+      <h1 class="showcase-name">Kuteesa Mercylina</h1>
+      <div class="showcase-role">Developer · Designer · Problem Solver</div>
+      <div class="showcase-scroll">
+        <div class="showcase-scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text rv">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Available for opportunities
+      </div>
+      <h2 class="hero-heading">
+        I build digital<br>experiences with<br><em>intention.</em>
+      </h2>
+      <p class="hero-desc">
+        Computer Science student at Makerere University, passionate about
+        crafting web applications, embedded systems, and backend architectures
+        that solve real problems.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work ↓</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">5+</div>
+          <div class="stat-text">Projects Built</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">8+</div>
+          <div class="stat-text">Technologies</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">MUK</div>
+          <div class="stat-text">University</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-img rv">
+      <div class="hero-float-shape"></div>
+      <div class="hero-float-shape"></div>
+      <div class="hero-img-wrapper">
+        <!-- Replace with your actual photo -->
+        <img src="/images/mine.jpeg" alt="Kuteesa Mercylina">
+      </div>
+      <div class="hero-img-badge">CS Student ✦</div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-left rv">
+        <div class="about-img">
+        
+          <img src="/images/code2.jpg" alt="Mercylina">
+        </div>
+      </div>
+      <div class="rv">
+        <div class="sec-eyebrow">About Me</div>
+        <h2 class="sec-heading">The story behind<br>the code.</h2>
+        <p class="about-text">
+          Computer science, for me, has always been about building things that
+          matter. As a student at Makerere University, I've immersed myself
+          across the full spectrum  from crafting pixel perfect frontends to
+          designing database schemas that power real businesses.
+        </p>
+        <p class="about-text">
+          I bring the same care to every project whether it's a tour and travel
+          platform that needs to feel inviting, a health-tech app that demands
+          trust, or a smart parking system built with a team under real deadlines.
+          My curiosity extends beyond software into embedded systems and networking.
+        </p>
+        <div class="about-values">
+          <div class="value-card">
+            <div class="value-icon">◇</div>
+            <div class="value-title">Clean Code</div>
+            <div class="value-desc">Readable, maintainable code that teams can work with</div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">△</div>
+            <div class="value-title">User First</div>
+            <div class="value-desc">Every interface decision starts with the person using it</div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">○</div>
+            <div class="value-title">Full Stack</div>
+            <div class="value-desc">Frontend to backend to database end-to-end thinking</div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">⬡</div>
+            <div class="value-title">Always Learning</div>
+            <div class="value-desc">Constantly expanding into new tools and technologies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  SKILLS  -->
+  <section class="skills-section" id="skills">
+    <div class="skills-top rv">
+      <div class="sec-eyebrow" style="justify-content:center">My Skills</div>
+      <h2 class="sec-heading">What I <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+      </head>
+      <body>
+        
+      </body>
+      </html>.</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card rv">
+        <div class="skill-card-icon">◇</div>
+        <div class="skill-card-name">HTML & CSS</div>
+        <div class="skill-card-desc">Semantic markup, responsive layouts, Grid & Flexbox</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">⬡</div>
+        <div class="skill-card-name">JavaScript</div>
+        <div class="skill-card-desc">ES6+, DOM, async patterns, API integration</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">△</div>
+        <div class="skill-card-name">React</div>
+        <div class="skill-card-desc">Components, hooks, state management, SPAs</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">▽</div>
+        <div class="skill-card-name">Backend</div>
+        <div class="skill-card-desc">Server logic, REST APIs, authentication</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">◈</div>
+        <div class="skill-card-name">Database</div>
+        <div class="skill-card-desc">Schema design, SQL, data modelling</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">⊞</div>
+        <div class="skill-card-name">C++</div>
+        <div class="skill-card-desc">OOP, data structures, algorithms</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:72%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">⊙</div>
+        <div class="skill-card-name">Embedded Systems</div>
+        <div class="skill-card-desc">Microcontrollers, sensors, HW-SW interface</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div>
+      </div>
+      <div class="skill-card rv">
+        <div class="skill-card-icon">◎</div>
+        <div class="skill-card-name">Networks</div>
+        <div class="skill-card-desc">TCP/IP, routing, config, security</div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:74%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section class="projects-section" id="projects">
+    <div class="projects-header rv">
+      <div>
+        <div class="sec-eyebrow">Selected Work</div>
+        <h2 class="sec-heading">Projects that tell the story.</h2>
+      </div>
+    </div>
+    <div class="projects-grid">
+      <div class="proj-card rv">
+        <div class="proj-cover">
+          <div class="proj-cover-inner pc1">
+            <img src="/images/tourscape.jpeg" alt="Tourscape Safaris">
+          </div>
+          <span class="proj-tag">Tour & Travel</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Tourscape Safaris</h3>
+          <p class="proj-desc">A fully responsive tour and travel website showcasing safari packages, destinations, and booking across East Africa.</p>
+          <div class="proj-stack"><span>HTML</span><span>CSS</span><span>Database</span><span>React</span></div>
+        </div>
+      </div>
+      <div class="proj-card rv">
+        <div class="proj-cover">
+          <div class="proj-cover-inner pc2">
+            <img src="/images/health.jpeg" alt="Tourscape Health">
+          </div>
+          <span class="proj-tag">Health Tech</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Tourscape Health</h3>
+          <p class="proj-desc">A health-focused platform delivering travel health advisories, medical facility locators, and wellness resources.</p>
+          <div class="proj-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Backend</span></div>
+        </div>
+      </div>
+      <div class="proj-card rv">
+        <div class="proj-cover">
+          <div class="proj-cover-inner pc3">
+            <img src="/images/elevation.jpeg" alt="Elevation Homes">
+          </div>
+          <span class="proj-tag">Furniture Store</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Elevation Homes</h3>
+          <p class="proj-desc">A property listing all neccessary home furniture from bedroom, kitchen to sittng room.</p>
+          <div class="proj-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Database</span></div>
+        </div>
+      </div>
+      <div class="proj-card rv">
+        <div class="proj-cover">
+          <div class="proj-cover-inner pc4">
+            <img src="/images/parqpilot.jpeg" alt="ParqPilot">
+          </div>
+          <span class="proj-tag">Group Project</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">ParqPilot</h3>
+          <p class="proj-desc">A smart parking solution enabling drivers to discover, reserve, and navigate to available spaces in real time.</p>
+          <div class="proj-stack"><span>React</span><span>Backend</span><span>Database</span><span>REST API</span></div>
+        </div>
+      </div>
+      <div class="proj-card rv">
+        <div class="proj-cover">
+          <div class="proj-cover-inner pc5">
+            <img src="/images/porte.jpeg" alt="Portfolio Website">
+          </div>
+          <span class="proj-tag">Personal</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">Portfolio Website</h3>
+          <p class="proj-desc">This hand-crafted portfolio  editorial aesthetics, motion design, and meticulous typographic attention.</p>
+          <div class="proj-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!--  CONTACT -->
+<section class="contact-section" id="contact">
+  
+  <div class="contact-bg">Say Hello</div>
+
+  <div class="contact-header rv">
+    <div class="sec-eyebrow" style="justify-content:center">Get In Touch</div>
+    <h2 class="sec-heading" style="color:var(--white)">
+      Let's create something together.
+    </h2>
+  </div>
+
+  <div class="contact-grid rv">
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info">
+      <h3>Open to opportunities & collaborations.</h3>
+      <p>
+        Whether you have a project, an internship, or just want to talk tech  I'd love to connect.
+      </p>
+
+      <div>
+        <a href="mailto:kuteesa.mercylina10@gmail.com" class="c-item">
+          <div class="c-icon">✉</div>
+          <div>
+            <span class="c-label">Email</span>
+            <div class="c-val">kuteesa.mercylina10@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+256707707827" class="c-item">
+          <div class="c-icon">☏</div>
+          <div>
+            <span class="c-label">Phone</span>
+            <div class="c-val">+256 707 707 827</div>
+          </div>
+        </a>
+
+        <a href="#" class="c-item">
+          <div class="c-icon">⊕</div>
+          <div>
+            <span class="c-label">Location</span>
+            <div class="c-val">Kampala, Uganda</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/mvzbnkjg" method="POST">
+
+      <div class="form-row">
+        <div class="fld">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="fld">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="your@email.com" required>
+        </div>
+      </div>
+
+      <div class="fld">
+        <label>Subject</label>
+        <input type="text" name="subject" placeholder="Project collaboration">
+      </div>
+
+      <div class="fld">
+        <label>Message</label>
+        <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+      </div>
+
+      
+
+      <button type="submit" class="form-submit">Send Message →</button>
+
+    </form>
+
+  </div>
+</section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 Kuteesa Mercylina. All rights reserved.</span>
+    <div class="footer-links">
+  <div class="footer-links social-links">
+  <a href="https://github.com/Mercylina01" target="_blank" class="social">
+    <i class="fab fa-github"></i>
+    <span>GitHub</span>
+  </a>
+
+  <a href="https://www.linkedin.com/in/kuteesa-mercylina-a72942360/" target="_blank" class="social">
+    <i class="fab fa-linkedin"></i>
+    <span>LinkedIn</span>
+  </a>
+
+  <a href="https://x.com/kutelynah?s=21" target="_blank" class="social">
+    <i class="fab fa-x-twitter"></i>
+    <span>Twitter</span>
+  </a>
+</div>
+</div>
+      
+      
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
